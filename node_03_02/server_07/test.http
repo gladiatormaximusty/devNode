@@ -1,0 +1,23 @@
+@url = http://localhost:3000/
+
+### 列舉
+GET {{url}}products
+
+### 新增
+POST {{url}}product
+Content-Type: application/json
+
+{
+    "title":"hjkhkhjhkjh-Product_01"
+}
+
+### 刪除
+DELETE {{url}}products/621fa2bfb8b375213b5cb68b
+
+### 修改
+PUT {{url}}products/621f98d4f9b61750b6ae8df1
+Content-Type: application/json
+
+{
+    "title":"Addidas-Product_01"
+}
